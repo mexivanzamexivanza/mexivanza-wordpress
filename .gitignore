@@ -1,0 +1,53 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/backup-*/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+wp-content/themes/*
+!wp-content/themes/mexivanza/
+wp-*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+
+# Build artifacts
+dist/
+build/
+bin/
+config/
+core/
+modules/
+resources/
+storage/
+tests/
+public/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Project files
+*.zip
+files.json
+build.ps1
+mexivanza-child/
